@@ -31,4 +31,4 @@ For specific documentation relating to MHS then please click here.  **Add hyperl
 
 ###NHAIS
 
-TBC
+The NHAIS adaptor allows General Practice (GP) Surgeries to keep their patient registration and demographics data in sync with the regional Health Authorities (HA).

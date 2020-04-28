@@ -14,7 +14,7 @@ These adaptors hide the complexity of integration with the interfaces provided b
 
 NHS Digital are providing the set of adaptors shown as the "Adaptor Layer". This list of adaptors shown here is only an illustrative example.
 
-**Add Image
+[NIA Overview](img/High Level Architecture.png)
 
  
 A supplier is therefore required only to implement a simplified set of standard clients to the adaptor layer, integrating with a simplified and standardised set of interfaces exposed by the Adaptor layer. This set of clients is shown in the "Interface Layer" as highlighted in the diagram above.

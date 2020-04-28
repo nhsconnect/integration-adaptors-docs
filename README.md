@@ -2,17 +2,18 @@
 Documentation for National Integration Adaptors project
 
 
-##Summary
+## Summary
 The purpose of this page is to provide an overview of the National Integration Adaptors and how they play a part in the wider GP Connect API strategy.  It will also provide a more detailed view, technical guidance to install, integrate and test each adaptor.  
 
 The content of this repository will eventually be moved into the NHS Digital Developers portal.
 
-##National Integration Adaptors Overview
+## National Integration Adaptors Overview
 This NHS are introducing a number of client-side adaptors to complement a number of existing API technologies on offer to accelerate integration with national NHS systems.
 These adaptors hide the complexity of integration with the interfaces provided by the current national systems by implementing an adaptor layer. The integrating supplier sees only a simplified and standardised set of interfaces which the adaptor layer presents. The adaptor layer is responsible for interacting with the legacy NHSD interface estate.
 
 
 NHS Digital are providing the set of adaptors shown as the "Adaptor Layer". This list of adaptors shown here is only an illustrative example.
+
 
 [NIA Overview](img/High Level Architecture.png)
 
@@ -32,3 +33,4 @@ For specific documentation relating to MHS then please click here.  **Add hyperl
 ###NHAIS
 
 The NHAIS adaptor allows General Practice (GP) Surgeries to keep their patient registration and demographics data in sync with the regional Health Authorities (HA).
+

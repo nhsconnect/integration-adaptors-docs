@@ -10,13 +10,13 @@ The Integration-Adaptors MHS Github repo has significant details about this Adap
 
 
 
-##Onboarding
+## Onboarding
 As outlined in section 2, the purpose of each adaptor is to enable access to national NHS Systems.  As an enabler, the adaptor will need to be configured to integrate with the relevant NHS environment(s).  Therefore you will need to register your intention to use adaptors through the standard NHS onboarding process which can be found here within the NHS Operations overview. 
 
 
-##Installation & Configuration inc dependencies 
+## Installation & Configuration inc dependencies 
 
-###Open Test and Path To Live Access
+### Open Test and Path To Live Access
 
 In order to perform end-to-end testing of the MHS Adaptor, you will require access to an NHS Digital test environment. The MHS adaptor connects to the following two test endpoints which are available in an NHS Digital test environment:
 •	Spine Core Mocked endpoint - which you will use to send and receive messages
@@ -30,13 +30,13 @@ To set up and configure Path to Live connectivity, please see Path to Live envir
 
 
 
-##MHS Services and how to Deploy them
+## MHS Services and how to Deploy them
 
 The installation guides within this section are based on NHSD’s recommended implementation patterns.  These patterns are detailed in two Exemplar Architectures available for AWS and Azure. 
 
 A Docker image for each MHS service has been created and can be found within Docker Hub along with the relevant install guidelines.
 
-###Outbound
+### Outbound
 The MHS Outbound Service which is responsible for listening for requests from the wider local system context and transmitting these to Spine.
 
 The MHS Adaptor presents a simple HTTP synchronous interface which is used to make requests to Spine via the Outbound API.
@@ -45,23 +45,23 @@ Please refer to OutBound API Documentation for specific details.  ***Meeting wit
 The docker image and associated installation guide for this service can be found here.  ****Install instructions still moving to GITHUB???****
 
 
-###Inbound
+### Inbound
 The MHS Inbound Service which is responsible for listening for incoming requests from Spine only.
 
 The docker image and associated installation guide for this service can be found  here.
 
 
-###Spine Route Lookup
+### Spine Route Lookup
 Spine Route Lookup, which is used to lookup routing and reliability information from Spine's directory service.
 
 The docker image and associated installation guide for this service can be here.
 
 
-##Integration Testing
+## Integration Testing
 MM to add
 
-##Operating/Administration Considerations
+## Operating/Administration Considerations
 
 Click here for suggestions on how you might operate this Adaptor in your own Infrastructure.  This covers areas such as Log consumption, Tooling, Audit etc 
 
-##Troubleshooting
+## Troubleshooting

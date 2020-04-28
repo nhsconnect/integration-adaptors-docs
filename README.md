@@ -14,21 +14,23 @@ These adaptors hide the complexity of integration with the interfaces provided b
 
 NHS Digital are providing the set of adaptors shown as the "Adaptor Layer". This list of adaptors shown here is only an illustrative example.
 
-** Add Image
+
+[NIA Overview](img/High Level Architecture.png)
 
  
 A supplier is therefore required only to implement a simplified set of standard clients to the adaptor layer, integrating with a simplified and standardised set of interfaces exposed by the Adaptor layer. This set of clients is shown in the "Interface Layer" as highlighted in the diagram above.
 
 
-## Adaptors
+##Adaptors
 
-### Message Handling System (MHS)
+###Message Handling System (MHS)
 
 The MHS Adaptor implements a messaging standard called the External Interface Specification, which defines in some detail a number of patterns for transport layer communication with the NHS Spine. The intent of this MHS Adaptor is to hide this implementation detail from the supplier, and so make it easier to connect to Spine and perform business operations such as interacting with Spine services like PDS.
 
-For specific documentation relating to MHS then please click here.  ** Add hyperlink
+For specific documentation relating to MHS then please click here.  **Add hyperlink
 
 
-### NHAIS
+###NHAIS
 
-TBC
+The NHAIS adaptor allows General Practice (GP) Surgeries to keep their patient registration and demographics data in sync with the regional Health Authorities (HA).
+

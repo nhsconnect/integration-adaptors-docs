@@ -13,9 +13,7 @@ These adaptors hide the complexity of integration with the interfaces provided b
 
 
 NHS Digital are providing the set of adaptors shown as the "Adaptor Layer". This list of adaptors shown here is only an illustrative example.
-
 ![NIA Overview](img/High%20Level%20Architecture.png)
-
  
 A supplier is therefore required only to implement a simplified set of standard clients to the adaptor layer, integrating with a simplified and standardised set of interfaces exposed by the Adaptor layer. This set of clients is shown in the "Interface Layer" as highlighted in the diagram above.
 
@@ -50,4 +48,9 @@ For specific documentation relating to MHS then please click [here](MHS/README.m
 
 The NHAIS adaptor allows General Practice (GP) Surgeries to keep their patient registration and demographics data in sync with the regional Health Authorities (HA).
 
+
 For specific documentation relating to NHAIS then please click [here](NHAIS/README.md). 
+
+
+
+

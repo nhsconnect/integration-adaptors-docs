@@ -1,4 +1,4 @@
-# Message Handling System
+# Message Handling System (MHS)
 
 The MHS Adaptor implements a messaging standard called the External Interface Specification, which defines in some detail a number of patterns for transport layer communication with the NHS Spine. The intent of this MHS Adaptor is to hide this implementation detail from the supplier, and so make it easier to connect to Spine and perform business operations such as interacting with Spine services like PDS.
 
@@ -10,6 +10,7 @@ The MHS adaptor is composed of three main services which are executed in Docker 
 1.	The MHS Outbound Service which is responsible for listening for requests from the wider local system context and transmitting these to Spine
 2.	Spine Route Lookup, which is used to lookup routing and reliability information from Spine's directory service.
 3.	the MHS Inbound Service which is responsible for listening for incoming requests from Spine.
+
 
 
 This [Link](https://github.com/nhsconnect/integration-adaptors/blob/develop/documentation/MHSLogicalArchitecture.pdf) provides a view of the services and Python modules which make up the MHS Adaptor based on the AWS Architecture Exemplar. 

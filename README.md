@@ -21,6 +21,7 @@ A supplier is therefore required only to implement a simplified set of standard 
 ## Pre-requisites for Integration Adaptors
 
 ### Onboarding
+
 The purpose of each adaptor is to enable access to national NHS Systems.  As an enabler, the adaptor will need to be configured to integrate with the relevant NHS environment(s).  Therefore you will need to register your intention to use adaptors through the standard NHS onboarding process which can be found [here](https://digital.nhs.uk/services/operations) within the NHS Operations overview. 
 
 ### Open Test and Path To Live Access

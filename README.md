@@ -36,7 +36,7 @@ OpenTest as an environment which can be used to perform initial test activities 
 
 All other integration test activities are to be performed within a Path To Live environment.  These activities include Development, Integration, Deployment and Non-functional tests.
 
-To set up and configure OpenTest up please use [Set up NHS Digital OpenTest connection](https://github.com/nhsconnect/integration-adaptors/blob/develop/setup-opentest.md). 
+To set up and configure OpenTest up please use [Set up NHS Digital OpenTest connection](https://digital.nhs.uk/services/spine/open-access-test-environment-for-spine-opentest). 
 
 To set up and configure Path to Live connectivity, please see [Path to Live environments](https://digital.nhs.uk/services/path-to-live-environments). 
 

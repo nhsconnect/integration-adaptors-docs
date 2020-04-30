@@ -1,6 +1,6 @@
 # Message Handling System (MHS)
 
-The MHS Adaptor implements a messaging standard called the External Interface Specification, which defines in some detail a number of patterns for transport layer communication with the NHS Spine. The intent of this MHS Adaptor is to hide this implementation detail from the supplier, and so make it easier to connect to Spine and perform business operations such as interacting with Spine services like PDS.
+The MHS Adaptor implements a messaging standard called the External Interface Specification, which defines in some detail a number of patterns for transport layer communication with the NHS Spine. The intent of this MHS Adaptor is to hide this implementation detail from the supplier, and so make it easier to connect to Spine and perform business operations such as interacting with Spine services like PDS.  This is done by providing a simple interface to allow HL7 messages to be sent to a remote Message Handler.
 
 The following illustration shows the MHS adaptor in the wider systems context:
 ![MHS System Context](../img/MHS%20HLD.png)
@@ -11,11 +11,9 @@ The MHS adaptor is composed of three main services which are executed in Docker 
 2.	Spine Route Lookup, which is used to lookup routing and reliability information from Spine's directory service.
 3.	the MHS Inbound Service which is responsible for listening for incoming requests from Spine.
 
-
-
 This [Link](https://github.com/nhsconnect/integration-adaptors/blob/develop/documentation/MHSLogicalArchitecture.pdf) provides a view of the services and Python modules which make up the MHS Adaptor based on the AWS Architecture Exemplar. 
 
-The Integration-Adaptors MHS [Github repo](https://github.com/nhsconnect/integration-adaptors/tree/develop/mhs) has significant details about this Adaptor including API Documentation, example Postman collection requests, AWS and Azure Deployment Exemplars and Terraform resources that you may find useful.  
+The Integration-Adaptors MHS [Github repo](https://github.com/nhsconnect/integration-adaptors/tree/develop/mhs) has significant details about this Adaptor including API Documentation, example Postman collection requests, AWS and Azure Deployment Exemplars and Terraform resources that you may find useful. 
 
 ## MHS Services and how to Deploy them
 

@@ -42,7 +42,40 @@ The docker image and associated installation guide for this service can be found
 
 
 ## Integration Testing
-MM to add
+This section explains how to send requests to OpenTest which is the NHS Spine Test System. The requests are sent via the docker containers which can be setup following the previous section: [Starting the services as docker containers](https://github.com/nhsconnect/integration-adaptors/tree/develop/integration-tests/integration_tests#starting-the-services-as-docker-containers)
+
+1. Open Visual Studio (or your preferred IDE)
+2. Check out the [integration-adaptor](https://github.com/nhsconnect/integration-adaptors) project from the develop branch in Gitbub
+3. In the project root, create the directory `.vscode` if it doesnt exist already
+4. In the vscode folder, create a file called `settings.json`
+5. Add the information below to the `settings.json` file
+
+`{
+    "python.pythonPath": "/usr/local/bin/python3",
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "rest-client.environmentVariables": {
+        "$shared": {},
+        "$sample_mhs_environment": {
+            "BASE_URL": "http://localhost",
+                        "INBOUND-PORT": "8082",
+                        "OUTBOUND-PORT": "80",
+                        "ROUTE-LOOKUP-PORT": "8088",
+                        "FAKE-SPINE-PORT": "8091",
+                        "ASID": "9XXXXXXXXXXX",
+                        "PARTY-KEY": "A9XXXX-XXXXXXX"
+        }
+    }
+}`
+
+6. Navigate the code directories to the requests: `/http-client/mhs/outbound`
+7. Navigate to the folder of the message pattern type you wish to run a request for and open a request .http file
+8. In the bottom right corner of VS Code, click `No Environment` and select `$sample_mhs_environment`
+9. Change the data `@PATIENT_NHS_NUMBER` to be a number which is valid in OpenTest.  A valid number can be found in the correct integration test for the same message pattern type
+
+Example integration tests have been provided and can be found in:
+`/integration-tests/integration_tests/integration_tests/end_to_end_tests`
+1. Click the `Send Request` link which can be found inside the .http file request
 
 ## Operating/Administration Considerations
 

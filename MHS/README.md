@@ -42,7 +42,7 @@ The docker image and associated installation guide for this service can be found
 
 
 ## Integration Testing
-This section explains how to send requests to OpenTest which is the NHS Spine Test System. The requests are sent via the docker containers which can be setup following the previous section: [Starting the services as docker containers](https://github.com/nhsconnect/integration-adaptors/tree/develop/integration-tests/integration_tests#starting-the-services-as-docker-containers)
+This section explains how to send requests to OpenTest which is the NHS Spine Test System. The requests are sent via the docker containers which can be setup following the section [Starting the services as docker containers](https://github.com/nhsconnect/integration-adaptors/tree/develop/integration-tests/integration_tests#starting-the-services-as-docker-containers)
 
 1. Open Visual Studio (or your preferred IDE)
 2. Check out the [integration-adaptor](https://github.com/nhsconnect/integration-adaptors) project from the develop branch in Gitbub

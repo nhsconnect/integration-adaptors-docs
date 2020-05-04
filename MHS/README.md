@@ -68,7 +68,7 @@ This section explains how to send requests to OpenTest which is the NHS Spine Te
     }
 }`
 
-6. Navigate the code directories to the requests: `/http-client/mhs/outbound`
+6. Navigate the code directories to the requests: `/rest-client/mhs/outbound`
 7. Navigate to the folder of the message pattern type you wish to run a request for and open a request .http file
 8. In the bottom right corner of VS Code, click `No Environment` and select `$sample_mhs_environment`
 9. Change the data `@PATIENT_NHS_NUMBER` to be a number which is valid in OpenTest.  A valid number can be found in the correct integration test for the same message pattern type

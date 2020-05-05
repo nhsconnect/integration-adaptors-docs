@@ -84,7 +84,7 @@ Click [here](https://github.com/nhsconnect/integration-adaptors/blob/develop/mhs
 ## Troubleshooting/FAQ
 
 ### Spine External Interface Specification (EIS)
-Integrators may find it beneficial to familarise themselves with Spines EIS.  The [EIS](https://digital.nhs.uk/developer/api-specifications/spine-external-interface-specification) is a complete set of technical documents with the necessary information to connect to the Spine national services via HL7 V3 APIs.
+Integrators may find it beneficial to familarise themselves with Spines EIS and in particular, Part 3 - Message Interaction Map.  The [EIS](https://digital.nhs.uk/developer/api-specifications/spine-external-interface-specification) is a complete set of technical documents with the necessary information to connect to the Spine national services via HL7 V3 APIs.  
 
 ### Sync-async=true Requests - Performance
 This request type effectively turns synchronous requests into synchronous ones. This request type by its own nature will be slower than the asynchronous requests because they must wait for a reply from Spine. There are two specific variables that control how often and for how long the MHS workflow will wait for a reply:

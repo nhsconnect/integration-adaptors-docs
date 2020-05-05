@@ -88,7 +88,8 @@ Integrators may find it beneficial to familarise themselves with Spines EIS and 
 
 ### Sync-async=true Requests - Performance
 This request type effectively turns synchronous requests into synchronous ones. This request type by its own nature will be slower than the asynchronous requests because they must wait for a reply from Spine. There are two specific variables that control how often and for how long the MHS workflow will wait for a reply:
+`
+* 'MHS_RESYNC_RETRIES' (outbound only) The total number of attempts made to the sync-async store during resynchronisation, defaults to '20'
 
-`* 'MHS_RESYNC_RETRIES' (outbound only) The total number of attempts made to the sync-async store during resynchronisation, defaults to '20'
-
-* 'MHS_RESYNC_INTERVAL' (outbound only) The time in between polls of the sync-async store, the interval is in seconds and defaults to '1'`
+* 'MHS_RESYNC_INTERVAL' (outbound only) The time in between polls of the sync-async store, the interval is in seconds and defaults to '1'
+`

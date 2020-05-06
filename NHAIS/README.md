@@ -2,6 +2,8 @@
 
 NHAIS is a system that allows General Practice (GP) Surgeries to keep their patient registration and demographics data in sync with the regional Health Authorities (HA). Since the creation of this service the regional or area health authorities (approx 80) have since been replaced by a fewer number of successor organisations. There is however still a notion of every GP Practice’s patient being registered with one of the HAs.
 
+For more information on the NHAIS Service click [here](https://digital.nhs.uk/services/nhais/guide-to-nhais-gp-links-documentation)
+
 
 ## NHAIS Services and how to Deploy them
 

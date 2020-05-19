@@ -4,6 +4,12 @@ NHAIS is a system that allows General Practice (GP) Surgeries to keep their pati
 
 The patient registration and demographics portion is called HA/GP Links. Whilst the NHAIS NHS Service supports features in addition to GP Links, this adapter currently only provides functionality specific to GP Links.
 
+## Architecture Overview
+
+The following illustration shows the NHAIS adaptor in the wider systems context:
+![NHAIS System Context](../img/NHAIS%20Arc%20Overview.png)
+
+Some of the services that make up the adaptor can be configured according to the GP Suppliers preferred host and implementation patterns.  These services are illustrated above in the grey boxes.
 
 ### Useful NHAIS and GP Links Specifications
 

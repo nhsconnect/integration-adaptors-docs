@@ -50,6 +50,17 @@ HA to GP Links
 
 \* Close Quarter Notification is acknowledged by the adaptor but not forwarded to the GP System
 
+## Workflows
+
+### Acceptance - Approved
+
+![NHAIS System Context](../img/High-level%20Acceptance%20Workflow,%20Approved.png)
+
+### Acceptance - Error
+
+![NHAIS System Context](../img/High-level%20Acceptance%20Workflow,%20Error.png)
+
+
 ## NHAIS Services and how to Deploy them
 
 The installation guides within this section are based on NHSD’s recommended implementation patterns.  These patterns are detailed in two Exemplar Architectures available for AWS and Azure. 

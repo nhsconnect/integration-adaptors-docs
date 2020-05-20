@@ -3,7 +3,7 @@
 The MHS Adaptor implements a messaging standard called the External Interface Specification, which defines in some detail a number of patterns for transport layer communication with the NHS Spine. The intent of this MHS Adaptor is to hide this implementation detail from the supplier, and so make it easier to connect to Spine and perform business operations such as interacting with Spine services like PDS.  This is done by providing a simple interface to allow HL7 messages to be sent to a remote Message Handler.
 
 The following illustration shows the MHS adaptor in the wider systems context:
-![MHS System Context](../img/MHS%20HLD.png)
+![MHS System Context](../img/MHS_SysContext.png)
 
 
 The MHS adaptor is composed of three main services which are executed in Docker containers:

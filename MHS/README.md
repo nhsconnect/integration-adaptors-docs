@@ -5,6 +5,8 @@ The MHS Adaptor implements a messaging standard called the External Interface Sp
 The following illustration shows the MHS adaptor in the wider systems context:
 ![MHS System Context](../img/MHS_SysContext.png)
 
+Some of the services that make up the adaptor can be configured according to the GP Suppliers preferred host and implementation patterns.  These services are illustrated above in the grey boxes.
+
 
 The MHS adaptor is composed of three main services which are executed in Docker containers:
 1.	The MHS Outbound Service which is responsible for listening for requests from the wider local system context and transmitting these to Spine
@@ -14,6 +16,10 @@ The MHS adaptor is composed of three main services which are executed in Docker 
 This [Link](https://github.com/nhsconnect/integration-adaptors/blob/develop/documentation/MHSLogicalArchitecture.pdf) provides a view of the services and Python modules which make up the MHS Adaptor based on the AWS Architecture Exemplar. 
 
 The Integration-Adaptors MHS [Github repo](https://github.com/nhsconnect/integration-adaptors/tree/develop/mhs) has significant details about this Adaptor including API Documentation, example Postman collection requests, AWS and Azure Deployment Exemplars and Terraform resources that you may find useful. 
+
+## MHS Workflows
+The MHS adaptor supports a number of different message patterns.  The following sequence diagrams show the workflow of each pattern at a high level.
+
 
 ## MHS Services and how to Deploy them
 

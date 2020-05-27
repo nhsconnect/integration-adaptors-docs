@@ -65,10 +65,10 @@ HA to GP Links
 
 The installation guides within this section are based on NHSD’s recommended implementation patterns.  These patterns are detailed in two Exemplar Architectures available for AWS and Azure. 
 
-A Docker image for each service has been created and can be found within Docker Hub along with the relevant install guidelines.
+A single Docker image for all services has been created and can be found within Docker Hub along with the relevant install guidelines.  The published docker image includes the following NHAIS adaptor services:
 
 ### Outbound
-The GP System will send outbound messages using a HL7 FHIR R4 REST API:
+The GP System will send outbound messages using a HL7 FHIR R4 REST API.  An Open API specification has been created for the Outbound service, this can be found [here](https://github.com/nhsconnect/integration-adaptor-nhais/blob/feature/NIAD-182-openapi-docs/specification/nhais-adaptor.yaml) 
 
 ### Inbound
 The GP System will receive inbound messages from an AMQP message queue. The messages will be HL7 FHIR R4.
@@ -79,6 +79,9 @@ The GP System will receive inbound messages from an AMQP message queue. The mess
 MM to add
 
 ## Operating/Administration Considerations
+
+### Local Install
+The integration-adaptor-nhais Github repository contains additional information including how to run a [local install](https://github.com/nhsconnect/integration-adaptor-nhais/tree/feature/NIAD-182-openapi-docs#Development).
 
 Click here for suggestions on how you might operate this Adaptor in your own Infrastructure.  This covers areas such as Log consumption, Tooling, Audit etc 
 

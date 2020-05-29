@@ -87,7 +87,7 @@ To set up and configure Path to Live connectivity, please see [Path to Live envi
 The installation guides within this section are based on NHSD’s recommended implementation patterns.  These patterns are detailed in two Exemplar Architectures available for AWS and Azure. 
 
 ### Docker Images
-A single Docker image for all NHAIS services has been created and can be found within Docker Hub along with the relevant install guidelines.  The published docker image includes the following NHAIS adaptor services:
+A single Docker image for all NHAIS services has been created and can be found within Docker Hub along with the relevant install guidelines.  The published docker image includes the following NHAIS adaptor services:  TO BE ADDED WHEN AVAILABLE
 
 **Outbound**
 The GP System will send outbound messages using a HL7 FHIR R4 REST API.  An [Open API specification]((https://github.com/nhsconnect/integration-adaptor-nhais/tree/develop/specification)) has been created for the Outbound service. 
@@ -96,6 +96,7 @@ The GP System will send outbound messages using a HL7 FHIR R4 REST API.  An [Ope
 The GP System will receive inbound messages from an AMQP message queue. The messages will be HL7 FHIR R4.
 
 **MESH Wrapper**
+This wrapper will enable outbound and inbound messages to be sent/received to the relevant MESH mailboxes. 
 
 ## Integration Testing
 MM to add

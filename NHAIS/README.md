@@ -105,7 +105,7 @@ MM to add
 ### Local Install
 The integration-adaptor-nhais Github repository contains additional information including how to run a [local install](https://github.com/nhsconnect/integration-adaptor-nhais#Development).
 
-The [NHAIS github repository]((https://github.com/nhsconnect/integration-adaptor-nhais/tree/develop/pipeline)) contains addtional information on how you might operate this Adaptor in your own Infrastructure.  This covers areas such as Log consumption, Tooling, Audit etc 
+The [NHAIS github repository](https://github.com/nhsconnect/integration-adaptor-nhais/tree/develop/pipeline) also contains addtional information on how you might operate this Adaptor in your own Infrastructure.  This covers areas such as Log consumption, Tooling, Audit etc 
 
 ## Troubleshooting
 This section contains details of common questions
